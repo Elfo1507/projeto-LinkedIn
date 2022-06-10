@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 1280px;
+    background-color: rgb(243, 240, 233);
+    box-sizing: border-box;
+}
+
+nav{
+    height: 75px;
+}
+nav>div{
+    height: 62px;
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(152, 152, 152);
+
+}
+.linkedinIcon{
+    width: 30px;
+    margin: 25px 10px 25px 40px;
+}
+.pesquisa{
+    display: flex;
+    background-color: rgb(238, 246, 255);
+    height: 30px;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    align-items: center;
+}
+.formSearch{
+    border:none;
+    background-color:rgb(238, 246, 255) ;
+    width: 200px;
+    height: 100%;
+}
+.formSearch:active{
+    border: none;
+}
+.searchIcon{
+    width: 30px;
+    height: 30px;
+    transform: rotate(-90deg);
+}
+.navigation{
+    display: flex;
+    list-style: none;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.navigationcontainer{
+    display: flex;
+}
+.navItem{
+    width: 52px;
+    max-height: 62px;
+    margin-left: 19px;
+    font-size: 10px;
+    place-content: center;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    font-weight: 100;
+    margin-top: -17px;
+}
+.navImg{
+    width: 30px;
+    justify-self: center;
+    height: 25px;
+}
+.eu{
+    border-radius: 50%;
+    height: 100px;
+}
+.navImgMenu{
+    width: 60px;
+    justify-self: center;
+    margin-top: -10px;
+}
+.navTextMenu{
+    margin-top: -10px;
+}
+.navTextSp{
+    display: flex;
+}
+.nawDown{
+    width: 15px;
+    height: 17px;
+    margin-top: 8px;
+}
+.nawDown2{
+    width: 15px;
+    height: 17px;
+    margin-top: -12px;
+}
+.linha{
+    height: 62px;
+    border-right: 1px solid rgb(194, 194, 194);
+    margin-top: -12px;
+}
+.premiumfree{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.feed{
+    filter: brightness(0%);
+}
+.linhainicio{
+    width:52px;
+    border-bottom: black 2px solid;
+    margin-top: -2px;
+}
+.containerContent{
+    display: flex;
+}
+.aside1{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 45px;
+    width: 220px;
+    height: 380px;
+    padding: 0 10px 10px 10px;
+    text-justify: auto;
+}
+.capa{
+    width: 240px;
+    margin-left: 45px;
+    margin-bottom: -20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px rgb(216, 216, 216) solid;
+    text-align: center;
+}
+.textoPerfil{
+    color: rgb(194, 194, 194);
+    font-size: 10px;
+    margin-top: -5px;
+    
+}
+.euPerfil{
+    margin-top: -30px;
+}
+.whosaw{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: rgb(168, 168, 168);
+}
+.whosawContainer{
+    border-bottom: 1px rgb(218, 218, 218) solid;
+}
+.nain{
+    color: #0072b1;
+    font-weight: bold;
+}
+.premiumVapoItem{
+    display: flex;
+    color: black;
+    font-size: 12px;
+    border-bottom: 1px rgb(218, 218, 218) solid;
+    align-items: center;
+}
+.premium{
+    width: 30px;
+    height: 30px;
+}
+.grey{
+    color: rgb(194, 194, 194);
+    font-size: 13px;
+}
+.recent{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+}
+.aside2{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 45px;
+    width: 220px;
+    height: 350px;
+    padding:10px;
+    margin-top: 10px;
+}
+.groups{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    align-items: center;
+    margin-left: -40px;
+    margin-top: -18px;
+    color: rgb(112, 112, 112);
+}
+.imgGroups{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.groupText{
+    font-size: 12px;
+    color: rgb(112, 112, 112);
+}
+.groupTitle{
+    font-size: 12px;
+    color: rgb(112, 112, 112);
+}
+#grupos{
+    color: #0072b1;
+    font-weight: bold;
+}
+#visualizar{
+    margin-top: -25px;
+    margin-left: 30px;
+}
+.events{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1px ;
+    border-bottom: 1px rgb(218, 218, 218) solid;
+}
+.eventText{
+    margin-right: 150px;
+    color: #0072b1;
+    font-weight: bold;
+    font-size: 12px;
+}
+.plusIcon{
+    height: 10px;
+    margin-top: 10px;
+}
+#hashtags{
+    margin-right: 0;
+    
+}
+.discover{
+    display: flex;
+    justify-content: center;
+}
+.discoverText{
+    font-size: 15px;
+    color: rgb(112, 112, 112);
+}
+.post{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    margin-top: 0px;
+    width: 500px;
+    height: 100px;
+    padding: 20px;
+    font-weight: bold;
+}
+.postar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.euPost{
+    border-radius: 50%;
+    height: 50px;
+    margin-right: 10px;
+}
+.inputPostar{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border: 1px solid rgb(168, 168, 168);
+    padding: 20px;
+    width: 400px;
+    height: 10px;
+}
+.postItems{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -50px;
+}
+.postItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.postImage{
+    height: 30px;
+}
+.postText{
+    font-size: 14px;
+}
+.between{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    margin-top: -25px;
+}
+.betweenLinha{
+    border-bottom: 1px rgb(112, 112, 112) solid;
+    width: 420px;
+}
+.betweenText{
+    font-size: 10px;
+}
+.betweenDown{
+    width: 15px;
+    height: 15px;
+    filter: brightness(50%);
+}
+.feedPrincipal{
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    height: 480px;
+    margin: 10px;
+    margin-top: -30px;
+    padding: 20px;
+    margin-left: 20px;
+}
+.cabeçalho{
+    display: flex;
+    font-size: 11px;
+    color: rgb(168, 168, 168);
+}
+.globo{
+    height: 10px;
+}
+.cabeçalhoDois{
+    display: flex;
+    flex-direction: column;
+}
+.cabeçalhoDois p{
+    margin:2px;
+}
+.nomezao{
+    color: black;
+    font-size: 13px;
+}
+.poto{
+    margin-top: -5px;
+}
+.hora{
+    display: flex;
+    align-items: center;
+}
+.tresdots{
+    color: black;
+    font-size: 30px;
+    margin-top: -25px;
+}
+.textPost{
+    display: flex;
+    flex-direction: column;
+}
+.textPost em{
+    color: #0072b1;
+    font-weight: bold;
+}
+.seemore{
+    align-self: flex-end;
+    margin-top: -30px;
+    color: rgb(168, 168, 168);
+}
+.imgPost{
+    width: 540px;
+    height: 300px;
+    margin-left: -20px;
+}
+.options{
+    display: flex;
+    margin-left: -50px;
+    justify-content: space-between;
+}
+.linhafeed{
+    width: 540px;
+    margin-left: -20px;
+    border-bottom: 1px rgb(152, 152, 152) solid;
+}
+.optionsItems{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 13px;
+}
+.optionsItems img{
+    width: 30px;
+    height: 20px;
+}
+.aside3{
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    font-size: 15px;
+    list-style: circle;
+}
+.news{
+    display: flex;
+    justify-content: space-between;
+}
+.infoIcon{
+    height: 17px;
+    margin-top: 17px;
+}
+.noticiasItem{
+    margin-top: -10px;
+    margin-left: -25px;
+}
+.tempoNoticia{
+    color: rgb(152, 152, 152);
+    margin-top: -10px;
+    font-size: 10px;
+}
+.showmore{
+    display: flex;
+    color: rgb(152, 152, 152);
+    margin-left: 30px;
+}
+.showIcon{
+    width: 30x;
+    height: 30px;
+    margin-top: 10px;
+}
+.end{
+    color: rgb(152, 152, 152);
+    font-size: 11px;
+    margin-top: 30px;
+    text-align: center;
+}
+.endItem{
+    margin: 3px;
+}
+.terms{
+    display: flex;
+    justify-content: center;
+}
+.services{
+    display: flex;
+    justify-content: center;
+}
+.arrowdown{
+    width: 30px;
+    height: 30px;
+}
+.items1{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 50px 0 50px;
+}
+.items2{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 50px 0 50px;
+}
+.items3{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 50px 0 50px;
+}
+.linked{
+    display: flex;
+    justify-content: center;
+}
+.linkedlogo{
+    display: flex;
+    color: #0072b1;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.linkedicon{
+    height: 15px;
+    margin-top: 7px;
+}
+.c{
+    height: 14px;
+    filter: brightness(50%);
+    margin-top: 7px;
+}
+
+
